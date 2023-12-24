@@ -43,4 +43,4 @@ export const HangImage = ({imageNumber}: Props) => {
     )   
 }
 
-export default HangImage
+export default HangImage;
