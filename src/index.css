@@ -1,0 +1,26 @@
+body{
+    margin: 60px;
+    background-color: #3B3B3B;
+}
+.contenedor{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    cursor: pointer;
+    background-color: #e2e2e2;
+    border: none;
+    border-radius: 5px;
+}
+.contenedor-botones{
+    display: flex;
+    flex-wrap: wrap; /* Envuelve los botones a la siguiente línea si no hay espacio */
+    justify-content: center; /* Alineación horizontal en el centro */
+    gap: 5px;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    color: #FFF;
+}
