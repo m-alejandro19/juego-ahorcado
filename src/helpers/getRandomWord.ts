@@ -1,4 +1,4 @@
-let word: string[] = [
+let word:string [] = [
     'Antigua y Barbuda',
     'Argentina',
     'Bahamas',
@@ -41,4 +41,4 @@ export const getRandomWord = () => {
     const randomIndex = Math.floor(Math.random() * word.length);
 
     return word[randomIndex];
-}
+};
