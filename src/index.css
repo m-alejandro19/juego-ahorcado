@@ -13,6 +13,13 @@ button {
     background-color: #e2e2e2;
     border: none;
     border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+button:last-of-type {
+    width: auto;
+    height: auto;
+    padding: .5rem;
 }
 .contenedor-botones{
     display: flex;
