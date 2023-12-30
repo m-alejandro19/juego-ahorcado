@@ -83,7 +83,9 @@ function App() {
             ))
           }
         </div>
-        <button onClick={newGame}>¿Nuevo Juego?</button>
+        <button 
+          className="nuevo-juego"
+          onClick={newGame}>¿Nuevo Juego?</button>
       </div>
     </>
   )
